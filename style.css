@@ -1,0 +1,11 @@
+.claculator-body-area {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-body {
+    border: 200px solid #000;
+}
