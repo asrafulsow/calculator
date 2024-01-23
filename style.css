@@ -7,5 +7,40 @@
 }
 
 .main-body {
-    border: 200px solid #000;
+    border: 5px solid #000;
+    width: 30%;
+    height: 600px;
+}
+
+.display {
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    height: 100px;
+    border: 1px solid #000;
+}
+
+.display p {
+    text-align: right;
+    font-size: 35px;
+    color: #000;
+    font-weight: bold;
+}
+
+.gird-container {
+    display: grid;
+}
+
+.button-calculator {
+    margin: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.button-calculator button {
+    padding: 6PX;
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
 }
